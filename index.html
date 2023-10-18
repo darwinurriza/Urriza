@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Make a Website Using HTML/CSS</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav id="navbar">
+        <div class="container">
+          <h1><a href="#">Personal Website</a></h1>
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Showcase Area -->
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <img src="unnamed.jpg" width="200" height="170">
+            <h2>Hi! I'm Darwin B. Urriza</h2>
+            <p class="lead">
+                I have decided to change my career to programming. I have always been interested in programming and last year. I
+                attended a programming course. During course I learnt about basics of PHP, HTML, CSS, XML, MySQL, object-oriented
+                programming, Javascript.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h3 class="bg-dark-line"><span>About Me</span></h3>
+        <p class="lead">
+            My name is Darwin, I’ve been studying Information Technology for four years. In order to kick-start my career before I graduate, I am looking for a job of a web developer, 
+            since that’s what I’ve been doing already for four years in my free time. Designing websites for friends, developing simple e-shops with the help of some open source content-management systems,
+            and so on. Besides that I am a normal guy who enjoys hiking and spending time with friends, while not working or studying, which takes most of my time of course. I am ambitious and hard-working and believe you’ll give me a chance to prove my words.
+        </p>
+   
+      </div>
+    </section>
+    <!-- Our Services -->
+    <div id="services">
+      <div class="container">
+        <h3 class="bg-dark-line"><span>Services</span></h3>
+        <div class="box bg-primary">
+          <h2>Web Designing</h2>
+          <i class="fa-solid fa-paintbrush fa-4x"></i>
+          <p class="lead">
+            
+            
+          </p>
+        </div>
+        <div class="box light-gray">
+          <h2>Web Development</h2>
+          <i class="fa-solid fa-code fa-4x"></i>
+          <p class="lead">
+            
+          </p>
+        </div>
+        <div class="box bg-primary">
+          <h2>Desktop Application</h2>
+          <i class="fa-solid fa-desktop fa-4x"></i>
+          <p class="lead">
+            
+
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <h3><span>Contact Us</span></h3>
+        <div class="contact-form">
+          <form action="process.php">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="name" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="button" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer id="main-footer">
+      <div class="container">
+        <p>
+          The Website Design by Darwin B. Urriza
+          <a href=""> OnlineITtuts </a> &copy 2022
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
